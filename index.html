@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Fylo landing page">
+        <meta name="keywords" content="Fylo, landing page, web design">
+
+        <title>Fylo landing page</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+
+            <!-- Nav at top of landing page -->
+
+            <div class="header__top-container">
+                <a href="#"><img src="./Images/logo.svg" class="header__logo"></a>
+                <nav class="header__nav">
+                    <ul>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Sign In</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Hero content -->
+
+            <section class="header__hero">
+                <div class="header__content">
+                    <h1 class="header__title">All your files in one secure location, accessible anywhere.</h1>
+                    <p class="header__desc">Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
+
+                    <form class="header__form">
+                        <label for="email" class="header__label">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email..." required aria-describedby="error-message" class="header__input">
+                        <button type="submit">Get Started</button>
+                        <small id="error-message" class="error-message">Please check your email</small>
+                    </form>
+                </div>
+                <img src="./Images/illustration-1.svg" alt="" role="presentation" aria-hidden="true" class="header__illustration">
+            </section>
+        </header>
+
+        <main>
+
+            <!-- Main content section -->
+
+            <section class="features">
+
+                <div class="features__container">
+                    <h2 class="features__title">Stay productive, wherever you are</h2>
+
+                    <p class="features__desc">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
+
+                    <p class="features__desc">Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
+
+                    <a href="#" class="features__link">
+                        <span>See how Fylo works</span>
+                        <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><circle id="b" cx="6" cy="6" r="6"/><filter x="-25%" y="-25%" width="150%" height="150%" filterUnits="objectBoundingBox" id="a"><feOffset in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"/><feColorMatrix values="0 0 0 0 0.239215686 0 0 0 0 0.62745098 0 0 0 0 0.560784314 0 0 0 0.793506567 0" in="shadowBlurOuter1"/></filter></defs><g fill="none" fill-rule="evenodd"><g transform="translate(2 2)"><use fill="#000" filter="url(#a)" xlink:href="#b"/><use fill="#3DA08F" xlink:href="#b"/></g><path d="M8.582 6l-.363.35 1.452 1.4H5.333v.5h4.338L8.22 9.65l.363.35 2.074-2z" fill="#FFF"/></g></svg>
+                        <br>
+                    </a>
+
+                    <article class="testimonial">
+                        <svg width="13" height="12" xmlns="http://www.w3.org/2000/svg"><text transform="translate(-34 -25)" fill="#07043B" fill-rule="evenodd" font-family="Helvetica" font-size="45"><tspan x="33" y="56">“</tspan></text></svg>
+
+                        <blockquote>
+                            <p class="testimonial__text">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
+                        </blockquote>
+
+                        <div class="testimonial__author">
+                            <img src="./Images/avatar-testimonial.jpg" alt="Testimonial Author Photo" class="testimonial__avatar">
+                            <div class="testimonial__author-info">
+                                <p class="testimonial__author-name">Kyle Burton</p>
+                                <p class="testimonial__author-bio">Founder & CEO, Huddle</p>
+                            </div>
+                        </div>
+
+                    </article>
+                    <img src="./Images/illustration-2.svg" alt="" role="presentation" aria-hidden="true" class="features__illustration">
+            </section>
+
+            <!-- Call to action -->
+
+            <section class="cta">
+
+                <h2 class="cta__title">Get early access today</h2>
+                <p class="cta__desc">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
+
+                <form class="cta__form">
+                    <label for="email-cta" class="cta__label">Email</label>
+                    <input type="email" id="email-cta" name="email" placeholder="email@example.com" required aria-describedby="error-message-cta" class="cta__input">
+                    <button type="submit">Get Started For Free</button>
+                    <small id="error-message-cta" aria-live="polite" class="error-message">Please check your email</small>
+                </form>
+
+            </section>
+        </main>
+        
+        <footer>
+
+            <!-- Footer logo, phone and email -->
+
+            <div class="footer__container">
+                <a href="#"><img src="./Images/logo.svg" class="footer__logo"></a>
+                <address>
+                    <a href="tel:+15431234567">
+                        <img src="/Images/icon-phone.svg" alt="Phone Icon">
+                        <p>Phone: +1-543-123-4567</p>
+                    </a>
+
+                    <a href="mailto:example@fylo.com">
+                        <img src="/Images/icon-email.svg" alt="Email Icon">
+                        <p>example@fylo.com</p>
+                    </a>
+                </address>
+             
+                <!-- First footer UL -->
+
+                <nav class="footer__nav">
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Second footer UL -->
+
+                <ul class="footer__links">
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Privacy</a></li>
+                </ul>
+
+                <!-- Social links -->
+
+                <ul class="footer__socials">
+                        <li><a href="https://www.facebook.com" class="footer__social-link" aria-label="Fylo on Facebook">
+                            <svg class="footer__social-icon" aria-hidden="true" width="28" height="28" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M12 2c5.514 0 10 4.486 10 10s-4.486 
+                                10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 
+                                0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 
+                                10h-2v2h2v6h3v-6h1.82l.18-2h-2v-.833c0-.478.096-.667.558-.667h1.442v-2.5h-2.404c-1.798 0-2.596.792-2.596 2.308v1.692z"/>
+                            </svg>
+                        </a></li>
+
+                        <li><a href="https://www.x.com" class="footer__social-link" aria-label="Fylo on Twitter">
+                            <svg class="footer__social-icon" aria-hidden="true" width="28" height="28" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M12 2c5.514 0 10 4.486 10 
+                                10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 
+                                0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6.5 
+                                8.778c-.441.196-.916.328-1.414.388.509-.305.898-.787 1.083-1.362-.476.282-1.003.487-1.564.597-.448-.479-1.089-.778-1.796-.778-1.59 
+                                0-2.758 1.483-2.399 3.023-2.045-.103-3.86-1.083-5.074-2.572-.645 1.106-.334 
+                                2.554.762 3.287-.403-.013-.782-.124-1.114-.308-.027 1.14.791 2.207 1.975 
+                                2.445-.346.094-.726.116-1.112.042.313.978 1.224 1.689 2.3 1.709-1.037.812-2.34 
+                                1.175-3.647 1.021 1.09.699 2.383 1.106 3.773 1.106 4.572 0 7.154-3.861 6.998-7.324.482-.346.899-.78 1.229-1.274z"/>
+                              </svg>
+                        </a></li>
+
+                        <li><a href="https://www.instagram.com" class="footer__social-link" aria-label="Fylo on Instagram">
+                            <svg class="footer__social-icon" aria-hidden="true" width="28" height="28" viewBox="0 0 24 24">
+                                <path fill="currentColor" d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 
+                                4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 
+                                7.082c1.602 0 1.792.006 2.425.035 1.627.074 2.385.845 2.46 2.459.028.633.034.822.034 
+                                2.424s-.006 1.792-.034 2.424c-.075 1.613-.832 2.386-2.46 2.46-.633.028-.822.035-2.425.035-1.602 
+                                0-1.792-.006-2.424-.035-1.63-.075-2.385-.849-2.46-2.46-.028-.632-.035-.822-.035-2.424s.007-1.792.035-2.424c.074-1.615.832-2.386 
+                                2.46-2.46.632-.029.822-.034 2.424-.034zm0-1.082c-1.63 0-1.833.007-2.474.037-2.18.1-3.39 1.309-3.49 
+                                3.489-.029.641-.036.845-.036 2.474 0 1.63.007 1.834.036 2.474.1 2.179 1.31 3.39 3.49 
+                                3.49.641.029.844.036 2.474.036 1.63 0 1.834-.007 2.475-.036 2.176-.1 3.391-1.309 
+                                3.489-3.49.029-.64.036-.844.036-2.474 0-1.629-.007-1.833-.036-2.474-.098-2.177-1.309-3.39-3.489-3.489-.641-.03-.845-.037-2.475-.037zm0 
+                                2.919c-1.701 0-3.081 1.379-3.081 3.081s1.38 3.081 3.081 3.081 3.081-1.379 
+                                3.081-3.081c0-1.701-1.38-3.081-3.081-3.081zm0 5.081c-1.105 0-2-.895-2-2 0-1.104.895-2 2-2 1.104 0 2.001.895 2.001 2s-.897 2-2.001 2zm3.202-5.922c-.397 0-.72.322-.72.72 0 .397.322.72.72.72.398 0 .721-.322.721-.72 0-.398-.322-.72-.721-.72z"/>
+                              </svg>
+                        </a></li>
+                    </ul>
+
+        </footer>
+    </body>
+</html>
