@@ -22,30 +22,23 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+- Screenshots are available in the screenshots folder.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
+- Solution URL: https://github.com/Joe-Wa1ker/fylo-landing-page
+- Live Site URL: https://joe-wa1ker.github.io/fylo-landing-page/
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ### Continued development
+
+- Work out scrolling issues on tablets - cannot reach the bottom on most.
+- Couldn't meet the criteria for the error message styling, more work with pseudo selectors needed, also struggled with positioning error message relative.absolute positioning didn't work.
+- I think I have become overly reliant on flexbox and using it so prolifically is causing some small issues, consider whether flex is really neccesary on future projects.
 
